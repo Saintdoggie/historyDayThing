@@ -1,0 +1,23 @@
+li {
+    /* margin-right: 10%; */
+    /* float: ; */
+    text-align: center;
+
+}
+li:hover {
+    color: grey;
+    cursor: default;
+}
+ul {
+
+    list-style-type: none;
+}
+
+#HambergerMenu {
+    width:20px;
+    height:20px;
+
+}
+#HambergerMenu:hover {
+    cursor: pointer;
+}
