@@ -1,5 +1,3 @@
-var menuLoaded = false;
-
 fetch("js/files/topBar.html")
 .then((response) => response.text())
 .then((html) => {
