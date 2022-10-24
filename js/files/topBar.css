@@ -1,23 +1,18 @@
 li {
-    /* margin-right: 10%; */
-    /* float: ; */
+    margin-right: 5%;
+    margin-top:-27px;
+    color: white;
+    background-color: black;
+    float: left;
     text-align: center;
+    padding: 10px;
 
 }
 li:hover {
-    color: grey;
     cursor: default;
+    background-color: grey;
 }
 ul {
-
     list-style-type: none;
 }
 
-#HambergerMenu {
-    width:20px;
-    height:20px;
-
-}
-#HambergerMenu:hover {
-    cursor: pointer;
-}

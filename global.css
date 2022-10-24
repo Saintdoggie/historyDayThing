@@ -1,0 +1,24 @@
+#topBar {
+    position: sticky;
+    top: 0;
+
+    margin: 0px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    border-color: blue;
+
+}
+.mainContent {
+    position: fixed;
+    margin: 0px;
+    padding: 100%;
+    text-align: center;
+    background-color: grey;
+    border-radius: 5px;
+    padding-bottom: 100%;
+
+}
+/* body {
+    background-color: grey;
+} */
