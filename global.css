@@ -12,13 +12,15 @@
 .mainContent {
     position: fixed;
     margin: 0px;
+    /* margin-top: 20px; */
+
     padding: 100%;
     text-align: center;
-    background-color: grey;
-    border-radius: 5px;
+    /* background-color: grey; */
+    /* border-radius: 5px; */
     padding-bottom: 100%;
 
 }
-/* body {
+body {
     background-color: grey;
-} */
+}
