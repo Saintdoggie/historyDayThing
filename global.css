@@ -5,13 +5,13 @@
 
     margin: 0px;
     margin-top: 0px;
-    /* margin-left: -8px; */
-    /* margin-right: -8px; */
+    margin-left: -8px;
+    margin-right: -8px;
 
     
     background-color: black;
     padding: 20px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     border-color: blue;
 
 }
@@ -28,4 +28,10 @@
 }
 body {
     background-color: grey;
+}
+.title {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    
 }
