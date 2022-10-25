@@ -18,20 +18,45 @@
 .mainContent {
     position: relative;
     margin: 0px;
+    margin-left: -8px;
+    margin-right: -5%;
+
+
     margin-top: 20px;
 
     padding-bottom: 100%;
     text-align: center;
     background-color: grey;
-    border-radius: 5px;
 
 }
 body {
     background-color: grey;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+
 }
 .title {
+    position: relative;
+
+    z-index: 100;
+
     text-align: center;
     font-size: 30px;
     color: white;
     
+}
+
+.topBarBackgroundImage {
+    position: fixed;
+    display: flex;
+    margin-top: -20px;
+    margin-left: -20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0 5px #000;
+    z-index: 0;
+
+    
+    
+
 }
