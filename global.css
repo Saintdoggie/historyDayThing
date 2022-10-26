@@ -31,7 +31,7 @@
 }
 body {
     background-color: grey;
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-x: hidden; 
 
 }
 .title {
