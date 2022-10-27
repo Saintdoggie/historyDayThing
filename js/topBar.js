@@ -1,5 +1,5 @@
 if (page == "home") {
-    fetch("/js/files/topBar.html")
+    fetch("/files/topBar.html")
     .then((response) => response.text())
     .then((html) => {
         document.getElementById("topBar").innerHTML = html;
@@ -9,7 +9,7 @@ if (page == "home") {
     });
 }
 else if (page == "unixBeginning") {
-    fetch("/js/files/topBar.html")
+    fetch("/files/topBar.html")
     .then((response) => response.text())
     .then((html) => {
         document.getElementById("topBar").innerHTML = html;
