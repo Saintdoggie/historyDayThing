@@ -11,6 +11,10 @@ li {
 li:hover {
     cursor: default;
     background-color: grey;
+    cursor: pointer;
+}
+li::selection {
+    color: white;
 }
 ul {
     list-style-type: none;

@@ -15,6 +15,7 @@
     border-color: blue;
 
 }
+
 .mainContent {
     position: relative;
     margin: 0px;
@@ -29,9 +30,16 @@
     background-color: grey;
 
 }
+.mainContent::selection {
+    text-decoration: underline;
+}
 body {
     background-color: grey;
     overflow-x: hidden; 
+    text-decoration: none;
+}
+.title::selection {
+    text-decoration: underline;
 
 }
 .title {
@@ -42,8 +50,10 @@ body {
     text-align: center;
     font-size: 30px;
     color: black;
+    cursor: default;
     
 }
+
 
 .topBarBackgroundImage {
     position: fixed;
@@ -59,4 +69,7 @@ body {
     
     
 
+}
+.topBarBackgroundImage::selection {
+    color: red;
 }
