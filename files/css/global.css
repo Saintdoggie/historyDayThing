@@ -17,22 +17,26 @@
 }
 
 .mainContent {
+    color: white;
     position: relative;
     margin: 0px;
+
     margin-left: -8px;
     margin-right: -5%;
 
 
-    margin-top: 20px;
+    margin-top: 100px;
 
     padding-bottom: 100%;
     text-align: center;
     font-size: x-large;
-    background-color: grey;
+    /* background-color: grey; */
 
 }
 .mainContent::selection {
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    color: grey;
+
 }
 body {
     background-color: grey;
@@ -40,14 +44,15 @@ body {
     text-decoration: none;
 }
 .title::selection {
-    text-decoration: underline;
+    color: white;
+
 
 }
 .title {
     position: relative;
 
     z-index: 100;
-
+    margin-left: -60%;
     text-align: center;
     font-size: 30px;
     color: black;
@@ -59,7 +64,7 @@ body {
 .topBarBackgroundImage {
     position: fixed;
     display: flex;
-    margin-top: -20px;
+    margin-top: -400px;
     margin-left: -20px;
     align-items: center;
     justify-content: center;
@@ -75,5 +80,5 @@ body {
     color: red;
 }
 br::selection {
-    text-decoration: underline;
+    color: red;
 }
