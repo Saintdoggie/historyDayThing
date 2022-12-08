@@ -6,13 +6,10 @@ li {
     float: left;
     text-align: center;
     padding: 10px;
-    border-radius: 10px;
-
 }
 li:hover {
-    cursor: default;
-    background-color: grey;
     cursor: pointer;
+    color: grey;
 }
 li::selection {
     color: white;
