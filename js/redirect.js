@@ -12,7 +12,7 @@ function redirect(toWhere) {
         }
         
     }
-    if (toWhere == "home") {
+    else if (toWhere == "home") {
         if (page == "unixBeginning") {
             window.location.replace("../home");
             page = "home"
