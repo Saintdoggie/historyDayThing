@@ -1,3 +1,13 @@
 .top {
     text-align: center;
 }
+.dividerLine {
+    width: 1px;
+    height: 100%;
+    position: fixed;
+    margin-left: 55%;
+    background-color: black;
+    border-color: black;
+    border-radius: 9px;
+
+}

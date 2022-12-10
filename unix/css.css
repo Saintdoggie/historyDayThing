@@ -21,6 +21,7 @@ br::selection {
     font-size: 90%;
 
     margin-top: 50px;
+    width: 55%;
 }
 .image {
     position: relative;
