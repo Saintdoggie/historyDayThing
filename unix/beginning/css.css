@@ -1,28 +1,14 @@
 .bottom {
-    font-size: xx-large;
     text-align: left;
     font-size: large;
     align-items: left;
     margin-top: 20px;
     margin-left: 20px;
 }
-.bottom::selection {
-    text-decoration: underline;
-}
 br::selection {
     text-decoration: underline;
 }
-.line::selection {
-    text-decoration: underline;
-}
-.line {
-    word-wrap: break-word;
 
-    font-size: 90%;
-
-    margin-top: 50px;
-    width: 55%;
-}
 .image {
     position: relative;
     float: right;

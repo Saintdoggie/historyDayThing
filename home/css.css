@@ -1,8 +1,0 @@
-.bottom {
-    margin-top:  50px;
-    text-align: center;
-    font-size: xx-large;
-}
-.bottom::selection {
-    text-decoration: underline;
-}
