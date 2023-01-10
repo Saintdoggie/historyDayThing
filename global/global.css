@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: lightblue;
     color: black;
 }
 body::selection {
@@ -85,7 +85,7 @@ a:focus::after{
 }
 
 a::selection {
-	color: black
+	color: black;
 }
 
 .globalMenuSeparator {
@@ -99,6 +99,9 @@ a::selection {
 }
 .globalMenuUnderline {
 	margin-top: 10px;
+	background-color: grey;
+	border-color: grey;
+	border-radius: 5px;;
 }
 .paragraph {
     word-wrap: break-word;
