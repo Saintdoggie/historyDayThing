@@ -114,33 +114,19 @@ a::selection {
 }
 
 .paragraph {
-    word-wrap: break-word;
-
-    margin-top: 50px;
-    /* width: 55%; */
     font-size: calc(.5em + 1vw);
-	margin-left: 40px;
-	height: 100vw;
-	margin-left: 50vh;
+
 	margin-top: 10vh;
-}
-  
+	padding-right: 10vh;
+	padding-left: 10vh;
+
+	text-align: center;
+
+}  
 .paragraph::selection {
     color: grey;
 }
 
-centered {
-	text-align: center;
-	align-items: center;
-	margin-left: 45vw;
-}
-centered::after {
-	content: " \a ";
-	white-space: pre;
-}
-centered::selection {
-	color: grey;
-}
 br::selection {
 	color: grey;
 }
