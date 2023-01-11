@@ -1,6 +1,15 @@
+/*
+
+global css file
+
+
+*/
+
+
 body {
-    background-color: lightblue;
+    background: lightblue;
     color: black;
+	background-attachment: fixed;
 }
 body::selection {
 	color: red;
@@ -103,17 +112,23 @@ a::selection {
 	border-color: grey;
 	border-radius: 5px;;
 }
+
 .paragraph {
     word-wrap: break-word;
-
 
     margin-top: 50px;
     /* width: 55%; */
     font-size: calc(.5em + 1vw);
+	margin-left: 40px;
+	height: 100vw;
+	margin-left: 50vh;
+	margin-top: 10vh;
 }
+  
 .paragraph::selection {
     color: grey;
 }
+
 centered {
 	text-align: center;
 	align-items: center;
