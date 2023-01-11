@@ -2,6 +2,9 @@
 
 init file
 
+
+adds a bunch of tags that would usually clog up a html file
+
 */
 
 //load global css file
