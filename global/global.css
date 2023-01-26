@@ -45,7 +45,7 @@ body::selection {
 .globalMenu {
     list-style-type: none; /* Remove bullets */
     margin-left: -10%;
-	margin-top: -5pc;
+	margin-top: -3pc;
 }
 a {
 	color: inherit;
@@ -99,7 +99,8 @@ a::selection {
 
 .globalMenuSeparator {
 	position: relative;
-	top: 20px;
+	margin-top: 10px;
+	top: 50px;
 	border-radius: 20px;
 	height: 2px;
 	background-color: rgb(50, 50, 50);
@@ -108,9 +109,11 @@ a::selection {
 }
 .globalMenuUnderline {
 	margin-top: 10px;
+	margin-bottom: 10px;
+
 	background-color: grey;
 	border-color: grey;
-	border-radius: 5px;;
+	border-radius: 5px;
 }
 
 .paragraph {
