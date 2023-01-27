@@ -1,0 +1,136 @@
+/*
+
+global css file
+
+
+*/
+
+
+body {
+    background: lightblue;
+    color: black;
+	background-attachment: fixed;
+}
+body::selection {
+	color: red;
+}
+
+
+.HomeButton {
+    /* make the image animated */
+    transition: transform 0.2s ease;
+    display: block;
+    
+    /* set width and margin of image */
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+    /* disable selecting the image*/
+    -webkit-user-select: none; /* safari */
+    -ms-user-select: none; /* internet explorer*/
+    user-select: none; /* everything else */
+}
+
+.HomeButton:hover {
+    /* make hovering over the image make image slightly bigger  */
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.globalMenuItems {
+    margin-left: 3%;
+	font-family: sans-serif, Arial;
+}
+.globalMenu {
+    list-style-type: none; /* Remove bullets */
+    margin-left: -10%;
+	margin-top: -6pc;
+	margin-bottom: 3pc;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+/* Underline styles */
+a {
+	display: block;
+	position: relative;
+	padding: 0.2em 0;
+}
+
+/* Fade in */
+a::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0.1em;
+	background-color: grey;
+	opacity: 0;
+	transition: opacity 300ms, transform 300ms;
+}
+
+
+/* Scale from center */
+a::after {
+	opacity: 1;
+	transform: scale(0);
+	transform-origin: center;
+}
+
+a:hover::after,
+a:focus::after{
+	transform: scale(1);
+}
+
+a::selection {
+	color: black;
+}
+
+.globalMenuSeparator {
+	position: relative;
+	margin-top: -0.5pc;
+	top: 50px;
+	border-radius: 20px;
+	height: 2px;
+	background-color: rgb(50, 50, 50);
+	border-color:  rgb(50, 50, 50);
+	margin-bottom: 50px;
+}
+.globalMenuUnderline {
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	background-color: grey;
+	border-color: grey;
+	border-radius: 5px;
+}
+
+.paragraph {
+    font-size: calc(.5em + 1vw);
+
+	margin-top: 10px;
+	padding-right: 10vh;
+	padding-left: 10vh;
+
+	text-align: center;
+
+}  
+.paragraph::selection {
+    color: grey;
+}
+
+br::selection {
+	color: grey;
+}
