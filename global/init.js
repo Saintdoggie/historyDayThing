@@ -12,7 +12,6 @@ var file = location.pathname.split("/").pop();
 
 var link = document.createElement("link");
 link.href = file.substr( 0, file.lastIndexOf( "." ) ) + "/global/global.css";
-link.type = "text/css";
 link.rel = "stylesheet";
 try {
     document.getElementsByTagName( "head" )[0].appendChild( link );
