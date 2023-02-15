@@ -117,12 +117,19 @@ a::selection {
 	padding-left: 10vh;
 
 	text-align: center;
-
 }  
 .paragraph::selection {
-    color: grey;
+	color: rgb(100,100,100);
 }
 
 br::selection {
-	color: grey;
+	color: rgb(100,100,100);
+
+}
+i::selection {
+	color: rgb(100,100,100);
+
+}
+b::selection {
+	color: rgb(100,100,100);
 }
