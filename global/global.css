@@ -110,18 +110,32 @@ a::selection {
 
 
 .paragraph {
-    font-size: calc(.5em + 1vw);
-
 	margin-top: 10px;
 	padding-right: 10vh;
 	padding-left: 10vh;
 
-	text-align: center;
+	text-align: left;
+	font-size: calc(.5em + 0.8vw);
+	align-items: left;
+	margin-top: 20px;
+	margin-left: 20px;
+
+	text-indent: 50px;
+
 }  
 .paragraph::selection {
 	color: rgb(100,100,100);
-}
 
+}
+.title {
+	font-size: calc(.5em + 1vw);
+
+	text-align: center;
+}
+.title::selection {
+	color: rgb(100,100,100);
+
+}
 br::selection {
 	color: rgb(100,100,100);
 
