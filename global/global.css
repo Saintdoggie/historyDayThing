@@ -47,12 +47,12 @@ body::selection {
     margin-left: -10%;
 	margin-top: -6pc;
 	margin-bottom: 3pc;
+	filter: grayscale(80%)
 }
 a {
 	color: inherit;
 	text-decoration: none;
 }
-
 
 ul {
 	display: flex;
@@ -101,36 +101,49 @@ a::selection {
 .globalMenuSeparator {
 	position: relative;
 	margin-top: -0.5pc;
-	top: 50px;
 	border-radius: 20px;
 	height: 2px;
 	background-color: rgb(50, 50, 50);
 	border-color:  rgb(50, 50, 50);
 	margin-bottom: 50px;
 }
-.globalMenuUnderline {
-	margin-top: 10px;
-	margin-bottom: 10px;
 
-	background-color: grey;
-	border-color: grey;
-	border-radius: 5px;
-}
 
 .paragraph {
-    font-size: calc(.5em + 1vw);
-
 	margin-top: 10px;
 	padding-right: 10vh;
 	padding-left: 10vh;
 
-	text-align: center;
+	text-align: left;
+	font-size: calc(.5em + 0.8vw);
+	align-items: left;
+	margin-top: 20px;
+	margin-left: 20px;
+
+	text-indent: 50px;
 
 }  
 .paragraph::selection {
-    color: grey;
-}
+	color: rgb(100,100,100);
 
+}
+.title {
+	font-size: calc(.5em + 1vw);
+
+	text-align: center;
+}
+.title::selection {
+	color: rgb(100,100,100);
+
+}
 br::selection {
-	color: grey;
+	color: rgb(100,100,100);
+
+}
+i::selection {
+	color: rgb(100,100,100);
+
+}
+b::selection {
+	color: rgb(100,100,100);
 }
