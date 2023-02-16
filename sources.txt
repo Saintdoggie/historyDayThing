@@ -1,1 +1,3 @@
 http://ibgwww.colorado.edu/~lessem/psyc5112/usail/concepts/hx-of-unix/unixhx.html
+http://www.groklaw.net/article.php?story=20050407114834583
+https://history-computer.com/complete-history-of-the-operating-system/
