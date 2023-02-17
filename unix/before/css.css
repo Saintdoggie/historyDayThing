@@ -1,0 +1,8 @@
+.paragraph {
+    text-align: left;
+    font-size: calc(.5em + 1vw);
+    align-items: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
