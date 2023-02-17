@@ -147,3 +147,9 @@ i::selection {
 b::selection {
 	color: rgb(100,100,100);
 }
+
+.hamburgerMenu {
+	position: fixed;
+	margin-left: 95vw;
+	margin-top: -90px;
+}
