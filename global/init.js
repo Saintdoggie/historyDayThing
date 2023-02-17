@@ -38,18 +38,21 @@ catch {
 
 //stuff to do after body is loaded
 
-document.addEventListener("DOMContentLoaded", function(event) {
+document.addEventListener("DOMContentLoaded", function() {
     
     //load topbar
 
     var topBar = document.createElement("div");
+
+    topBar.class = "menuBar";
+
     
-    //try to grap the html at /global/topBar/topBar.html the push it into the body tag
+    //try to grab the html at /global/topBar/topBar.html the push it into the body tag
     try {
         fetch("/global/topBar/topBar.html")
         .then(response => response.text())
         .then((data) => {
-            topBar.innerHTML = data;     
+            topBar.innerHTML = data;
         })
 
     }
