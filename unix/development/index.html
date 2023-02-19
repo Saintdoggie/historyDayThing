@@ -7,11 +7,31 @@
 </head>
 <body>
     <div class="bottom" draggable="false">
-    <p class="title">Developing Unix</p>
-    <p class="paragraph">
-        Bell labs researchers thought this project was too much of a hassle and was full complexity, so all of them ditched the project, but the last people to leave had decided to start their own operating system
-        
-    </p>
+        <p class="title">Developing Unix</p>
+        <p class="paragraph">
+            Unix was written two different programming languages.
+            C and Assembly, assembly is used for booting because it is very low level and programmers can control everything better.
+            Unix is made up of three parts; the kernel, the shell, and the userspace programs.
+        </p>
+        <p class="paragraph">
+            The kernel is the core of the operating system.
+            It handles everything that is low level; memory management, task scheduling, and more.
+            Task scheduling involves handling which programs get access cpu resources, and minimizing system resource waste.
+            Memory management is similar to task scheduling except it handles memory.
+            Device management though, is handled by drivers, which is software that interacts with a device, most hardware that unix(or any related operating system's) is handled by drivers.
+        </p>
+        <p class="paragraph">
+            The shell allows the user to manipulate the system through text based prompt.
+            All programs are launched from the shell.
+            In order to launch a program, you have type a program name, then the shell looks in your PATH, then either finds the program, if it finds it, it is launched, if not, a error message is displayed.
+            There are many shells including the Bourne Again Shell(bash) and the C shell(csh). 
+        </p>
+        <p class="paragraph">
+            The userspace programs, are the part that people interact with.
+            They have many different forms, and can be compiled or interpreted.
+            Compiled means that the program is not in a plain text format and is not readable by a Human.
+            Interpreted means that it is readable in plain text, but is usually slower than Compiling, an advantage thought is that you can modify or view the program before running it.
+        </p>
     </div>
 </body>
 </html>
