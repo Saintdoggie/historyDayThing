@@ -4,3 +4,4 @@ https://history-computer.com/complete-history-of-the-operating-system/
 https://www.multicians.org/history.html
 https://www.levenez.com/unix/unix_a4.pdf
 https://www.opensourceforu.com/2019/06/the-story-behind-the-development-of-the-unix-operating-system/
+https://www.howtogeek.com/devops/a-brief-history-of-unix/
