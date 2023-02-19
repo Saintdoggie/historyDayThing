@@ -163,6 +163,7 @@ b::selection {
 	display: none;
 	margin-left: -10px;
 	margin-top: 30px;
+	font-size: calc(.5em + 0.8vw);
 
 
 }
