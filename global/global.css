@@ -195,7 +195,3 @@ b::selection {
 
 	text-align: center;
 }
-.subtitle::selection {
-	color: rgb(100,100,100);
-
-}
