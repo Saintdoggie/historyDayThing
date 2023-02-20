@@ -190,3 +190,12 @@ b::selection {
 	cursor: grabbing;
 }
 
+.subtitle {
+	font-size: calc(.5em + 0.7vw);
+
+	text-align: center;
+}
+.subtitle::selection {
+	color: rgb(100,100,100);
+
+}

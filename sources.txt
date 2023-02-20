@@ -5,3 +5,9 @@ https://www.multicians.org/history.html
 https://www.levenez.com/unix/unix_a4.pdf
 https://www.opensourceforu.com/2019/06/the-story-behind-the-development-of-the-unix-operating-system/
 https://www.howtogeek.com/devops/a-brief-history-of-unix/
+https://www.geeksforgeeks.org/remote-file-system-rfs-in-file-management/
+https://dev.to/chaitanyarahalkar/understanding-the-unix-linux-virtual-file-system-jn1
+https://www.crn.com/news/applications-os/18825000/sco-project-legend-unixware-svr6-will-drive-future-channel-business.htm
+https://www.microsoft.com/en-us/windows-server/pricing
+https://gs.statcounter.com/os-market-share/mobile/worldwide/#monthly-202201-202301-
+https://gs.statcounter.com/os-market-share/desktop/worldwide/#monthly-202201-202301-bar
